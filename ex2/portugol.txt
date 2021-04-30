@@ -1,0 +1,18 @@
+inicio
+
+escreval("Em que ano você nasceu?)
+inteiro byear
+leia(byear)
+
+escreval("Em que ano estamos?)
+inteiro ayear
+leia(ayear)
+
+inteiro age = ayear - byear
+
+double weeks = age * 52.143
+
+escreval("Sua idade é de ", age, " anos")
+escreval("Sua idade é de ", weeks, " semanas")
+
+fim

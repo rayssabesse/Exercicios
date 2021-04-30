@@ -1,0 +1,17 @@
+inicio
+
+escreval("Insira seu salário: ")
+double isalary 
+leia(isalary)
+
+double percentage = (isalary / 100) * 30
+
+se (isalary <= 500) {
+    double fsalary = isalary + percentage
+    escreval("O valor do salário reajustado é de: R$", fsalary)
+}
+senao {
+    escreval("Funcionário não elegível para reajuste de salário")
+}
+
+fim

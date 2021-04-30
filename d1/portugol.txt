@@ -1,0 +1,22 @@
+inicio 
+
+escreval("Qual a sua idade?")
+inteiro age
+leia(age)
+se (age >= 5 e age <= 7) {
+    escreval("Categoria: Infantil A")
+}
+se (age >= 8 e age <= 10) {
+    escreval("Categoria: Infantil B")
+}
+se (age >= 11 e age <= 13) {
+    escreval("Categoria: Juvenil A")
+}
+se (age >= 14 e age <= 17) {
+    escreval("Categoria: Juvenil B")
+}
+se (age >= 18) {
+    escreval("Categoria: Sênior")
+}
+
+fim

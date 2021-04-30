@@ -1,0 +1,18 @@
+inicio
+
+inteiro age
+double months, days, hours, minutes
+
+escreval("Qual sua idade em anos?")
+
+months = age*12
+days = age*365
+hours = days*24
+minutes = hours*60
+
+escreval("Sua idade é de ", months, " meses")
+escreval("Sua idade é de ", days, " dias")
+escreval("Sua idade é de ", hours, " horas")
+escreval("Sua idade é de ", minutes, " minutos")
+
+fim
